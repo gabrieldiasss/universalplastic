@@ -1,8 +1,12 @@
-
+import Sidebar from "./components/Sidebar";
+import { GlobalStyle } from "./styles/global";
 
 function App() {
 	return (
-		<h1>Hello worold</h1>
+		<>
+			<GlobalStyle />
+			<Sidebar />
+		</>
 	);
 }
 
