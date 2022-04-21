@@ -6,13 +6,18 @@ export const Container = styled.aside`
 
     align-items: center;
 
-    max-width: 24rem;
-    width: 100%;
+    width: 30%;
     height: 100vh;
 
     padding: 2rem;
 
     background: var(--blue-900);
+
+    max-width: 400px;
+
+    @media(max-width: 500px) {
+        display: none;
+    }
 
   img {
       width: 80px;

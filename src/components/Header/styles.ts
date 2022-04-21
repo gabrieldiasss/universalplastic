@@ -12,10 +12,21 @@ export const Content = styled.div`
     justify-content: space-between;
 
     width: 90%;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
 
     height: 90px;
+
+    .logo {
+        display: flex;
+        align-items: center;
+        width: 40px;
+        margin-top: -10px;
+
+        @media(min-width: 500px) {
+            display: none;
+        }
+    }
 
     .input {
         background-color: var(--gray-100);
@@ -26,6 +37,11 @@ export const Content = styled.div`
 
         display: flex;
         align-items: center;
+
+        @media(max-width: 500px) {
+            max-width: 200px;
+            padding: 0 1rem;
+        }
         
         svg {
             color: var(--gray-500);
@@ -36,16 +52,19 @@ export const Content = styled.div`
             background: none;
             display: flex;
             align-items: center;
-
-            
         }
     }
 
-    img {
-        width: 60px;
-        height: 60px;
+    .user {
+        width: 4rem;
+        height: 4rem;
         border-radius: 100%;
         cursor: pointer;
+
+        @media(max-width: 500px) {
+            width: 3rem;
+            height: 3rem;
+        }
     }
 
     .infos {
@@ -56,6 +75,10 @@ export const Content = styled.div`
         div {
             border-right: 1px solid var(--gray-200);
             padding-right: 2rem;
+
+            @media(max-width: 500px) {
+                display: none;
+            }
         }
 
         button {

@@ -1,3 +1,4 @@
+import { BottomMenu } from "../BottomMenu";
 import { Feed } from "../Feed";
 import Header from "../Header";
 import { Storys } from "../Stories";
@@ -11,6 +12,7 @@ export default function Content() {
             <Storys />
             <Suggestions />
             <Feed />
+            <BottomMenu />
         </Container>
     )
 }

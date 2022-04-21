@@ -17,7 +17,7 @@ export function Storys() {
                             <img src="https://github.com/diego3g.png" />
                         </div>
 
-                        <span>peas</span>
+                        <span>@gabriel</span>
                     </UserElements>
 
                     <UserElements>

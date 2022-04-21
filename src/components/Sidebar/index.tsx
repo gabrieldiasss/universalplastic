@@ -1,5 +1,5 @@
 import { Container } from "./styles";
-import { RiDashboardLine, RiSearch2Line, RiChat3Line, RiNotification2Line, RiSendPlaneLine, RiSettings3Fill} from 'react-icons/ri'
+import { RiDashboardLine, RiSearch2Line, RiNotification2Line, RiSendPlaneLine, RiSettings3Fill} from 'react-icons/ri'
 
 import Logo from '../../images/logo.png'
 

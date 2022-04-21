@@ -13,9 +13,22 @@ export const Content = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
+
+    @media(max-width: 500px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+    }
+
+    @media(min-width: 1300px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
 `
 
 export const Post = styled.div`
+
+    cursor: pointer;
 
     width: 300px;
 
@@ -46,6 +59,14 @@ export const Post = styled.div`
             display: flex;
             align-items: center;
             gap: 16px;
+
+            svg {
+                font-size: 1.4rem;
+            }
+
+            span {
+                font-size: 1.2rem;
+            }
 
             .icon {
                 display: flex;
