@@ -7,6 +7,10 @@ export const GlobalStyle = createGlobalStyle`
        --blue-500: #4055F6;
        --blue-300: #42C2ED;
        --gray-50: #FAFAFA;
+       --gray-100: #E5E5E5;
+       --gray-200: #cacaca;
+       --gray-500: #AAA5A5;
+       
        --white: #fff;
     }
 
@@ -48,9 +52,22 @@ export const GlobalStyle = createGlobalStyle`
         font-family: Poppins;
     }
 
-    button, input {
+    button{
         font-family: Poppins;
-        font-weight: 700;
+        font-weight: 600;
+
+        border: 0;
+        outline: 0;
+
+        cursor: pointer;
+    }
+
+    input {
+        font-family: Roboto;
+        border: 0;
+        outline: 0;
+
+        
     }
 
     li {
