@@ -11,7 +11,7 @@ export const Container = styled.aside`
 
     padding: 2rem;
 
-    background: var(--blue-900);
+    background: var(--black-900);
 
     max-width: 400px;
 

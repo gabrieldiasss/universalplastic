@@ -9,7 +9,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    margin-top: 1rem;
+    margin: 1rem 0 5rem 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
@@ -34,9 +34,9 @@ export const Post = styled.div`
 
     padding: 1rem;
 
-    background-color: var(--white);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
-    border: 1px solid #EFEFEF;
+    background-color: var(--black-700);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
 
     img {
         width: 100%;
@@ -71,7 +71,11 @@ export const Post = styled.div`
             .icon {
                 display: flex;
                 align-items: center;
+
+                gap: 4px;
             }
+
+
         }
     }
 `

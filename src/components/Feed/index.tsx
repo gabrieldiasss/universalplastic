@@ -1,6 +1,11 @@
 import { Container, Content, Post } from "./styles";
 import { RiHeartLine, RiChat1Line } from 'react-icons/ri'
 
+import Foto1 from '../../images/foto-1.jpg'
+import Foto2 from '../../images/foto-2.jpg'
+import Foto3 from '../../images/foto-3.jpg'
+import Foto4 from '../../images/foto-4.jpg'
+
 export function Feed() {
 
     return (
@@ -8,11 +13,11 @@ export function Feed() {
             <h1>Feed</h1>
             <Content>
                 <Post>
-                    <img src="https://github.com/diego3g.png" alt="" />
+                    <img src={Foto1} alt="" />
 
                     <footer>
                         <div>
-                            <img src="https://github.com/diego3g.png" alt="" />
+                            <img src={Foto4} alt="" />
                         </div>
 
                         <div className="engagement" >
@@ -32,11 +37,11 @@ export function Feed() {
                 </Post>
 
                 <Post>
-                    <img src="https://github.com/diego3g.png" alt="" />
+                    <img src={Foto2} alt="" />
 
                     <footer>
                         <div>
-                            <img src="https://github.com/diego3g.png" alt="" />
+                            <img src={Foto4} alt="" />
                         </div>
 
                         <div className="engagement" >
@@ -56,11 +61,11 @@ export function Feed() {
                 </Post>
 
                 <Post>
-                    <img src="https://github.com/diego3g.png" alt="" />
+                    <img src={Foto3} alt="" />
 
                     <footer>
                         <div>
-                            <img src="https://github.com/diego3g.png" alt="" />
+                            <img src={Foto4} alt="" />
                         </div>
 
                         <div className="engagement" >

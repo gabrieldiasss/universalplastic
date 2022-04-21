@@ -17,7 +17,7 @@ export const Content = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
 
-    padding-bottom: 1rem ;
+    padding-bottom: 1rem;
 
     overflow-x: auto;
 
@@ -27,19 +27,19 @@ export const Content = styled.div`
     }
 
     &::-webkit-scrollbar-thumb {
-    background: #cacaca;
+    background: var(--black-700);
     }
 
     /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
-    background: #AAA5A5;
+    background: var(--black-900);
     }
 `
 
 export const Card = styled.div`
     padding: 1.2rem 1rem;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
-    border: 1px solid #EFEFEF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
+    background-color: var(--black-700);
     border-radius: 5px;
     display: flex;
     flex-direction: column;

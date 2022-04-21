@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     max-width: 1400px;
+    
     margin: 0 auto;
     width: 90%;
 
@@ -12,9 +13,9 @@ export const Container = styled.div`
 
 export const StorysContainer = styled.div`
     padding: 1rem 1rem;
-    background-color: var(--white);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.10);
-    border: 1px solid #EFEFEF;
+    background-color: var(--black-700);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.10);
+    border-radius: 5px;
 `;
 
 export const UserStories = styled.div`

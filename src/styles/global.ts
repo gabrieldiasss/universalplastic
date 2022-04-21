@@ -3,7 +3,9 @@ import { createGlobalStyle } from 'styled-components'
 export const GlobalStyle = createGlobalStyle`
 
     :root {
-       --blue-900: #090422;
+       --black-900: #0C0B10;
+       --black-800: #212429;
+       --black-700: #2A2D32;
        --blue-500: #4055F6;
        --blue-300: #42C2ED;
        --gray-50: #FAFAFA;
@@ -39,12 +41,14 @@ export const GlobalStyle = createGlobalStyle`
 
     body {
         -webkit-font-smoothing: antialiased;
-        background: var(--gray-50);
+        background: var(--black-800);
         height: 100vh;
         width: 100vw;
         overflow-x: hidden;
 
         font-family: Roboto;
+
+        color: var(--white);
     }
 
      h1, h2, h3, h4, h5, h6, strong {

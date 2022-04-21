@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-
 export const BottomMenuSection = styled.div` 
     position: fixed;
     bottom: 0;
@@ -8,7 +7,7 @@ export const BottomMenuSection = styled.div`
     z-index: 2;
     height: 4rem;
     padding: 8px min(46px, mx(10vw, 10px));
-    background: var(--blue-500);
+    background: var(--black-900);
     width: 100%;
     display: flex;
     align-items: center;
